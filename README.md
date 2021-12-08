@@ -10,7 +10,7 @@ This quickstart can be used as template. It has calls for insert/delete groups o
 
 - Generate a json of this client id, name it `key.json` and add it to config/credentials/)
 
-- (Requires Google Workspace admin account) Go to admin.google.com. Go to Security > API controls > Manage Domain Wide Delegation. Add a new API clients with your previously created Oauth Client Id as the Client ID, and the scopes (https://www.googleapis.com/auth/admin.directory.user and https://www.googleapis.com/auth/admin.directory.group) in OAuth scopes.
+- (Requires Google Workspace admin account) Go to admin.google.com. Go to Security > Access and data control > API controls > Manage Domain Wide Delegation. Add a new API clients with your previously created Oauth Client Id as the Client ID, and the scopes (https://www.googleapis.com/auth/admin.directory.user,https://www.googleapis.com/auth/admin.directory.group) in OAuth scopes.
 
 - Python3 (https://www.python.org/downloads/windows/)
 
